@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Matías Müller</title>
+
+  <meta name="viewport" content="width=devide-width, initial-scale=1.0">
+
+  <!--CSS de Bootstrap 4.2.1-->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <!--Google Fonts-->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700|Roboto:500&display=swap" rel="stylesheet">
+  <!--Font Awesome-->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+
+  <!--Mi estilo-->
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-danger fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="#"><img src="assets/img/logo.png" style="height: 40px;" alt="Logo de Matias"></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link text-white" href="#about">Sobre mí<span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="#experience">Experiencia</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="#work">Trabajos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="#contact">Contacto</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <header class="hero text-light text-center pt-5 mt-5">
+    <div class="container">
+      <h1 class="display-1 font-weight-bold my-5 shadow">YO SOY MATÍAS</h1>
+      <button href="#work" class="btn btn-danger btn-lg botones" data-toggle="tooltip" data-placement="bottom" title="Mis últimos trabajos">Trabajos</button>
+      <button href="#contact" class="btn btn-danger btn-lg botones" data-toggle="tooltip" data-placement="bottom" title="Contáctame">Contacto</button>
+    </div>
+  </header>
+
+  <section id="about" class="container py-3 text-center d-none d-md-block">
+    <div>
+      <h2>Me llamo Matías Müller, estudié Literatura sin embargo dejé la carrera botada para irme a viajar por Sudamérica, después de volver tuve una hija y me dediqué a la vida familiar</h2>
+      <hr>
+      <div class="row">
+        <div class="col-6">
+          <p>Mi hija se llama Mara Violeta, y junto con Isidora, mi pareja y su mamá, nos preocupamos de que sea una niña feliz y libre, que solo se preocupe de jugar y aprender.</p>
+        </div>
+        <div class="col-6">
+          <p>Junto con escribir y viajar, mis pasiones son el basketball, la natación, la música y cualquier tipo de arte. Desde hace poco empecé un curso en DesafioLatam, y desde ese momento que descubrí una nueva pasión: programar.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="container my-5 py-3">
+    <div class="row">
+      <div class="col-4 p-4 text-right">
+        <h2 class="font-weight-bold">Mis clientes</h2>
+      </div>
+
+      <div class="col-8 bg-danger text-white rounded pt-4 pb-5">
+        <div id="blogCarousel" class="carousel slide" data-ride="carousel">
+          <ol class="carousel-indicators">
+            <li data-target="#blogCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#blogCarousel" data-slide-to="1"></li>
+          </ol>
+
+          <div class="carousel-inner text-center">
+            <div class="carousel-item active">
+              <div class="row">
+                <div class="col-3">
+                  <i class="fab fa-codepen fa-2x" data-container="body" data-toggle="popover" data-trigger="hover" data-placement="bottom" data-content="Codepen"></i>
+                </div>
+                <div class="col-3">
+                  <i class="fab fa-apper fa-2x" data-container="body" data-toggle="popover" data-trigger="hover" data-placement="bottom" data-content="Apper"></i>
+                </div>
+                <div class="col-3">
+                  <i class="fab fa-angrycreative fa-2x" data-container="body" data-toggle="popover" data-trigger="hover" data-placement="bottom" data-content="Angry Creative"></i>
+                </div>
+                <div class="col-3">
+                  <i class="fab fa-google fa-2x" data-container="body" data-toggle="popover" data-trigger="hover" data-placement="bottom" data-content="Google"></i>
+                </div>
+              </div>
+
+
+            </div>
+            <div class="carousel-item">
+              <div class="row">
+                <div class="col-3">
+                  <i class="fab fa-500px fa-2x" data-container="body" data-toggle="popover" data-trigger="hover" data-placement="bottom" data-content="500px"></i>
+                </div>
+                <div class="col-3">
+                  <i class="fab fa-apple fa-2x" data-container="body" data-toggle="popover" data-trigger="hover" data-placement="bottom" data-content="Apple"></i>
+                </div>
+                <div class="col-3">
+                  <i class="fab fa-aviato fa-2x" data-container="body" data-toggle="popover" data-trigger="hover" data-placement="bottom" data-content="Aviato"></i>
+                </div>
+                <div class="col-3">
+                  <i class="fab fa-d-and-d fa-2x" data-container="body" data-toggle="popover" data-trigger="hover" data-placement="bottom" data-content="D-And-D"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <section id="experience" class="container my-3 text-center">
+    <h2>Mi Experiencia</h2>
+    <hr>
+    <div class="row">
+      <div class="col-6">
+        <i class="fas fa-hotel fa-5x text-danger"></i>
+        <p>Hotel W Santiago</p>
+        <h5>2016 - 2018</h5>
+      </div>
+      <div class="col-6">
+        <i class="fab fa-monero fa-5x text-danger"></i>
+        <p>Metlife</p>
+        <h5>2019</h5>
+      </div>
+    </div>
+
+  </section>
+
+  <section id="work" class="container-fluid bg-danger text-center py-5">
+    <div class="container">
+      <div class="card-deck pb-5">
+        <div class="card">
+          <img src="assets/img/cuppon.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="assets/img/dmark.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="assets/img/iguana_page.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+          </div>
+        </div>
+      </div>
+      <div class="card-deck">
+        <div class="card">
+          <img src="assets/img/meet_coffee.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="assets/img/ricomida.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="assets/img/suricata.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+  <section id="contact" class="container my-5">
+    <h2 class="display-3 font-weight-bold text-center my-4">Contáctame</h2>
+    <p class="text-center my-4">Si tienes alguna pregunta, comentario, o algo que me quieras decir, ¡no dudes en contactarme!</p>
+    <div class="typeform-widget" data-url="https://matiasmuller.typeform.com/to/fzK8tw" style="width: 100%; height: 500px;"></div>
+    <script>
+      (function() {
+        var qs, js, q, s, d = document,
+          gi = d.getElementById,
+          ce = d.createElement,
+          gt = d.getElementsByTagName,
+          id = "typef_orm",
+          b = "https://embed.typeform.com/";
+        if (!gi.call(d, id)) {
+          js = ce.call(d, "script");
+          js.id = id;
+          js.src = b + "embed.js";
+          q = gt.call(d, "script")[0];
+          q.parentNode.insertBefore(js, q)
+        }
+      })()
+    </script>
+    <div style="font-family: Sans-Serif;font-size: 12px;color: #999;opacity: 0.5; padding-top: 5px;"> powered by <a
+        href="https://admin.typeform.com/signup?utm_campaign=fzK8tw&utm_source=typeform.com-14114614-Basic&utm_medium=typeform&utm_content=typeform-embedded-poweredbytypeform&utm_term=ES" style="color: #999" target="_blank">Typeform</a>
+    </div>
+  </section>
+
+  <footer class="bg-danger text-center text-light py-5">
+    <div class="row">
+      <div class="col-6">
+      <h2 class="footerh2">Matías Müller</h2>
+      </div>
+      <div class="col-6">
+      <a href="https://github.com/matistanic"><i class="fab fa-github-square fa-3x text-white"></i></a>
+      <a href="https://www.facebook.com/matiblow"><i class="fab fa-facebook-square fa-3x mx-3 text-white"></i></a>
+      <a href="https://www.instagram.com/mati_mailo"><i class="fab fa-instagram fa-3x text-white"></i></a>
+      </div>
+    </div>
+  </footer>
+  <!--jQuery 3.3.1 sin slim-->
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+  <!--Popper JS 1.14.3-->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <!--Bootstrap JS 4.2.1-->
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+  <!--Mi scirpt-->
+  <script src="assets/js/script.js"></script>
+</body>
+
+</html>
